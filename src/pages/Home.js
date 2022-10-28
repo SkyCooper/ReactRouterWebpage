@@ -20,8 +20,8 @@ const Home = () => {
       <Subscribe/>
       <section id="boxes">
         <div className="container">
-          {data.map((item)=>{
-            return <Card {...item}/>
+          {data.map((item, index)=>{
+            return <Card key={index} {...item}/>
           })}
         </div>
       </section>

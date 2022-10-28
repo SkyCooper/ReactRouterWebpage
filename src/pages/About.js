@@ -10,6 +10,7 @@ const About = () => {
         <div className="container">
           <article id="main-col">
             <h1 className="page-title">About Us</h1>
+            <br />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
               varius auctor lacus nec feugiat. Phasellus sit amet ex ipsum.
@@ -19,6 +20,7 @@ const About = () => {
               Curabitur maximus metus nec metus pretium viverra at et orci.
               Integer hendrerit ante ut placerat cursus.
             </p>
+            <br /> <br />
             <p className="dark">
               Aliquam eget pharetra diam. Nulla placerat lorem at turpis tempor,
               vel ultrices dui tincidunt. Proin quis egestas lorem. Mauris
@@ -39,7 +41,7 @@ const About = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                 varius auctor lacus nec feugiat. Phasellus sit amet ex ipsum.
                 Praesent pharetra tincidunt tempor. Etiam velit eros, dapibus
-                eget porta in, lacinia et magna
+                eget porta in, lacinia et magna, Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, tempora nihil quasi reiciendis repellat voluptate delectus ea cupiditate assumenda ducimus nostrum quo nam exercitationem. Assumenda expedita porro, explicabo neque fuga doloremque, corporis nemo dignissimos reiciendis exercitationem esse cumque quaerat rem obcaecati sed voluptate, odit quis tempora repellat quos? Vel enim fuga voluptatem, eveniet minima quod aliquid saepe, inventore sint aut nam dolor nemo possimus consequuntur unde eius. Neque iure, ducimus cupiditate eveniet quam ipsa sint, magni obcaecati, dolor architecto quo enim veritatis optio! Ab perspiciatis impedit facere optio at dolorum, praesentium ipsam recusandae pariatur voluptatum nulla error, maiores corrupti eaque.
               </p>
             </div>
           </aside>

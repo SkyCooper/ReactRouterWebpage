@@ -8,7 +8,7 @@ const Home = () => {
     <>
     <div className="root">
       <section id="showcase">
-        <div className="container">
+        <div className="container title">
           <h1>Professional Web Design</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu

@@ -1,9 +1,10 @@
 import React from "react";
+import Subscribe from "../components/subscribe/Subscribe";
 
 const About = () => {
   return (
     <div className="root">
-      {/* use Subscribe component here */}
+      <Subscribe />
 
       <section id="main">
         <div className="container">

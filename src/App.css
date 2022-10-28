@@ -7,7 +7,7 @@ body {
 
 /* Global */
 .root {
-  height: 100%;
+  min-height: 650px;
 }
 
 .container {
@@ -98,6 +98,8 @@ header a:hover {
 #showcase {
   min-height: 400px;
   background: url("./assets/img/showcase.jpg") no-repeat -00px;
+  background-position: center;
+  background-size: cover;
   text-align: center;
   color: #ffffff;
 }
@@ -106,10 +108,12 @@ header a:hover {
   margin-top: 100px;
   font-size: 55px;
   margin-bottom: 10px;
+  color: #e8491d;
 }
 
 #showcase p {
   font-size: 20px;
+  color: #e8491d;
 }
 
 /* Newsletter */
@@ -177,7 +181,7 @@ article#main-col {
 
 ul#services li {
   list-style: none;
-  padding: 20px;
+  padding: 10px;
   border: #cccccc solid 1px;
   margin-bottom: 5px;
   background: #e6e6e6;
@@ -189,6 +193,14 @@ footer {
   color: whitesmoke;
   background-color: #35424a;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-height: 150px;
+}
+
+.logo{
+  height: fit-content;
 }
 
 ​​

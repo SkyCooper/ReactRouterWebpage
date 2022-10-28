@@ -1,10 +1,12 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
-const Card = ({ image, body, title }) => {
+const Card = ({ src, body, title, url }) => {
+  const navigate = useNavigate()
   return (
     <>
       <div className="box">
-        <img src={image} alt={title} />
+        <img src={src} alt={title} onClick={()=>navigate(url)} style={{cursor : "pointer"}}/>
         <h3>{title}</h3>
         <p>{body} </p>
       </div>

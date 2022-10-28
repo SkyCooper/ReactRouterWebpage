@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="container">
         <div id="branding">
           <h1>
-            <span className="highlight">Clarusway </span> Web Design
+            <span className="highlight">Cooper </span> Web Design
           </h1>
         </div>
         <nav>

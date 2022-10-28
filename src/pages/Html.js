@@ -1,7 +1,9 @@
 import React from "react";
+import {useNavigate } from "react-router-dom";
 import html from "../assets/img/logo_html.png";
 
 const HTML = () => {
+  const navigate = useNavigate()
   return (
     <div className="card">
       <img src={html} alt="" />
@@ -32,7 +34,7 @@ const HTML = () => {
         rerum ab at? Iure consectetur debitis illum totam, quam eaque ipsum quo
         esse at nulla suscipit soluta. Incidunt labore alias dignissimos.
       </p>
-      <button className="button_1">Go Back</button>
+      <button onClick={()=>navigate(-1)} className="button_1">Go Back</button>
     </div>
   );
 };

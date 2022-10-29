@@ -32,7 +32,9 @@ ul {
   padding-left: 20px;
   padding-right: 20px;
   color: #ffffff;
+  cursor: pointer;
 }
+
 
 .dark {
   padding: 15px;
@@ -205,6 +207,27 @@ footer {
 
 .logo{
   height: fit-content;
+}
+
+/* NotFound */
+.notfound{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.notfound img{
+  border: 4px solid #e8491d;
+  border-radius: 1rem;
+}
+
+.btn{
+  margin-left: 1rem;
+  border-radius: 10px;
+
 }
 
 ​​

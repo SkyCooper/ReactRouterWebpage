@@ -78,10 +78,11 @@ You can see the visual representation of the website above.
 - 💡 You can add additional functionalities and design to your app.
 ## Resources
 
-- 🔥 You can use [`data.js`](./src/helper/data.js) for your own work.
+- 🔥 You can use [`react-router`](https://reactrouter.com/en/main) for your own work.
 
 ## Support
 Open an Issue, I will check it a soon as possible 👀
+
 Don't forget to start the repo ⭐
 
 # <center> ⌛ Happy Coding ✍ </center>

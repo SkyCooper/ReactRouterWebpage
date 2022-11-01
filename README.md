@@ -56,8 +56,6 @@ Project(folder)
 
 ### Dependencies
 
-- react-dom@18.2
-
 - react-router-dom@6.3
 
 ### Overview
